@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="css/bomberos.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bomberos</title>
+    <link rel="stylesheet" href="/img/bombero.png">
+</head>
+<body>
+    <div class="regresar">
+        <input type="submit" value="Regresar" onClick="history.go(-1);">
+    </div>
+    <div class="bombero">
+        <div class="fuego" type="submit" onclick=incendio()>Incendio</div>
+        <div class="perro" type="submit" onclick=rescate()>Rescate</div>
+        <div class="auto" type="submit" onclick=accidenteTrafico()>Accidente de Trafico</div>
+        <div class="rocas" type="submit" onclick=derrumbes()>Derrumbe</div>    
+    </div>  
+    <img src="img/incendio.png" alt="incendio" class="incendio" onclick=incendio()>
+    <img src="img/rescate.png" alt="rescate" class="rescate" onclick=rescate()>
+    <img src="img/derrumbe.png" alt="derrumbe" class="derrumbe" onclick=derrumbes()>
+    <img src="img/accidente.png" alt="accidente" class="accidente" onclick=accidenteTrafico()>
+</body>
+<script src="js/bomberos.js"></script>
+</html>

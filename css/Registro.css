@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/img2.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+.iniciar-sesion{
+    width: 320px;
+    height: 450px;
+    background: #2d3436;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 10px 30px;
+    border-radius: 10%;
+}
+
+.iniciar-sesion h1 {
+    margin: 0;
+    padding: 10px 0 20px;
+    text-align: center;
+    font-size: 22px; 
+}
+
+.iniciar-sesion input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.iniciar-sesion input[type="text"],
+.iniciar-sesion input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font: 16px;
+}
+
+.iniciar-sesion input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #35599c;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.iniciar-sesion input[type="submit"]:hover{
+    background: #ff5f5f;
+    color: white;
+
+}
+.iniciar-sesion a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgray;
+}
+.enfermera{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    animation: movimiento 2.5s linear infinite
+}
+.policia{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 25%;
+    left: 70%;
+    animation: movimiento 2.5s linear infinite
+}
+
+@keyframes movimiento{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}

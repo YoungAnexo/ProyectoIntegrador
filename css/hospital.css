@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/ciudad.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+.heridas{
+    height: 210px;
+    width: 210px;
+    position: absolute;
+    top: 175px;
+    left: 100px;
+}
+.heridas:hover {
+    -webkit-transform:scale(-1);
+    transform:scale(1.3);
+    background: transparent;
+    transition:all .8s ease-in-out;
+}
+.embarazos{
+    height: 210px;
+    width: 210px;
+    position: absolute;
+    top: 175px;
+    left: 408px;
+}
+.embarazos:hover {
+    -webkit-transform:scale(-1);
+    transform:scale(1.3);
+    background: transparent;
+    transition:all .8s ease-in-out
+}
+.infarto{
+    height: 210px;
+    width: 210px;
+    position: absolute;
+    top: 175px;
+    left: 700px;
+}
+.infarto:hover {
+    -webkit-transform:scale(-1);
+    transform:scale(1.3);
+    background: transparent;
+    transition:all .8s ease-in-out
+}
+.desmayo{
+    height: 210px;
+    width: 210px;
+    position: absolute;
+    top: 175px;
+    left: 1000px;
+}
+.desmayo:hover {
+    -webkit-transform:scale(-1);
+    transform:scale(1.3);
+    background: transparent;
+    transition:all .8s ease-in-out
+}
+.regresar{
+    position: absolute;
+    top: 550px;
+    left: 600px;
+}
+.regresar input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #35599c;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.regresar input[type="submit"]:hover{
+    background: #ff5f5f;
+    color: white;
+    transition: 0.5s;
+}
+.hospital{    
+    color: white;
+    position: absolute;
+    left: 100px;
+    top: 420px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.herida{  
+    width: 130px;
+    height: 50px;
+    background: #35599c;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    color: black;
+    position: absolute;
+    left: 50px;
+    top: 0px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.herida[type="submit"]:hover{
+    background: #ff5f5f;
+    color: white;
+    transition: 0.5s;
+}
+.embaraz{
+    width: 130px;
+    height: 50px;
+    background: #35599c;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    color: black;
+    position: absolute;
+    left: 350px;
+    top: 0px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.embaraz[type="submit"]:hover{
+    background: #ff5f5f;
+    color: white;
+    transition: 0.5s;
+}
+.ataques{
+    width: 240px;
+    height: 50px;
+    background: #35599c;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    color: black;
+    position: absolute;
+    left: 590px;
+    top: 0px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.ataques[type="submit"]:hover{
+    background: #ff5f5f;
+    color: white;
+    transition: 0.5s;
+}
+.convulciones{
+    width: 170px;
+    height: 50px;
+    background: #35599c;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    color: black;
+    position: absolute;
+    left: 930px;
+    top: 0px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.convulciones[type="submit"]:hover{
+    background: #ff5f5f;
+    color: white;
+    transition: 0.5s;
+}

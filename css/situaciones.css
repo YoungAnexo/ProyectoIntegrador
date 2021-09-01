@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/ciudad.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+.bombero{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.bombero:hover {
+    -webkit-transform:scale(-1);
+    transform:scale(1.3);
+    background: transparent;
+    transition:all .8s ease-in-out;
+}
+.emergencias{
+    height: 210px;
+    width: 210px;
+    position: absolute;
+    top: 33%;
+    left: 40%;
+}
+.emergencias:hover {
+    -webkit-transform:scale(-1);
+    transform:scale(1.3);
+    background: transparent;
+    transition:all .8s ease-in-out
+}
+.enfermera{
+    height: 210px;
+    width: 210px;
+    position: absolute;
+    top: 33%;
+    left: 70%;
+}
+.enfermera:hover {
+    -webkit-transform:scale(-1);
+    transform:scale(1.3);
+    background: transparent;
+    transition:all .8s ease-in-out
+}
+.logout{
+    position: absolute;
+    top: 600px;
+    left: 600px;
+}
+.logout input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #43639e;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.logout input[type="submit"]:hover{
+    background: #ff5f5f;
+    color: white;
+}

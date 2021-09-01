@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/ciudad.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+.pelea{
+    height: 210px;
+    width: 210px;
+    position: absolute;
+    top: 175px;
+    left: 100px;
+}
+.pelea:hover {
+    -webkit-transform:scale(-1);
+    transform:scale(1.3);
+    background: transparent;
+    transition:all .8s ease-in-out;
+}
+.robo{
+    height: 210px;
+    width: 210px;
+    position: absolute;
+    top: 175px;
+    left: 408px;
+}
+.robo:hover {
+    -webkit-transform:scale(-1);
+    transform:scale(1.3);
+    background: transparent;
+    transition:all .8s ease-in-out
+}
+.homicidio{
+    height: 210px;
+    width: 210px;
+    position: absolute;
+    top: 175px;
+    left: 700px;
+}
+.homicidio:hover {
+    -webkit-transform:scale(-1);
+    transform:scale(1.3);
+    background: transparent;
+    transition:all .8s ease-in-out
+}
+.secuestro{
+    height: 210px;
+    width: 210px;
+    position: absolute;
+    top: 175px;
+    left: 1000px;
+}
+.secuestro:hover {
+    -webkit-transform:scale(-1);
+    transform:scale(1.3);
+    background: transparent;
+    transition:all .8s ease-in-out
+}
+.regresar{
+    position: absolute;
+    top: 550px;
+    left: 600px;
+}
+.regresar input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #35599c;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.regresar input[type="submit"]:hover{
+    background: #ff5f5f;
+    color: white;
+    transition: 0.5s;
+}
+.policia{    
+    color: white;
+    position: absolute;
+    left: 100px;
+    top: 420px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.peleacallejera{  
+    width: 130px;
+    height: 50px;
+    background: #35599c;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    color: black;
+    position: absolute;
+    left: 50px;
+    top: 0px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.peleacallejera[type="submit"]:hover{
+    background: #ff5f5f;
+    color: white;
+    transition: 0.5s;
+}
+.asaltos{
+    width: 130px;
+    height: 50px;
+    background: #35599c;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    color: black;
+    position: absolute;
+    left: 350px;
+    top: 0px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.asaltos[type="submit"]:hover{
+    background: #ff5f5f;
+    color: white;
+    transition: 0.5s;
+}
+.asesinato{
+    width: 150px;
+    height: 50px;
+    background: #35599c;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    color: black;
+    position: absolute;
+    left: 630px;
+    top: 0px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.asesinato[type="submit"]:hover{
+    background: #ff5f5f;
+    color: white;
+    transition: 0.5s;
+}
+.personassecuestradas{
+    width: 160px;
+    height: 50px;
+    background: #35599c;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    color: black;
+    position: absolute;
+    left: 910px;
+    top: 0px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.personassecuestradas[type="submit"]:hover{
+    background: #ff5f5f;
+    color: white;
+    transition: 0.5s;
+}

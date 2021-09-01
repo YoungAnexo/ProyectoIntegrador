@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="css/hospital.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital</title>
+</head>
+<body>
+    <div class="regresar">
+        <input type="submit" value="Regresar" onClick="history.go(-1);">
+    </div>
+<div class="hospital">
+    <div class="herida" type="submit" onclick=heridas()>Heridas</div>
+    <div class="embaraz" type="submit" onclick=Embarazo()>Embarazo</div>
+    <div class="ataques" type="submit" onclick=ataques()>Ataques Cardiacos</div>
+    <div class="convulciones" type="submit" onclick=convulciones()>Convulciones</div>
+</div>
+    <img src="https://image.flaticon.com/icons/png/512/30/30681.png" alt="" class="heridas" onclick=heridas()>
+    <img src="https://svgsilh.com/svg/1295826.svg" alt="" class="embarazos" onclick=Embarazo()>
+    <img src="https://fettlerhealth.com/images/icons/figures/silent-ischema.png" alt="" class="infarto" onclick=ataques()>
+    <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/unconscious-3543058-2964213.png" alt="" class="desmayo" onclick=convulciones()>
+</body>
+<script src="js/hospital.js"></script>
+
+</html>

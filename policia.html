@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="css/policia.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Policia</title>
+</head>
+<body>
+    <div class="regresar">
+        <input type="submit" value="Regresar" onClick="history.go(-1);">
+    </div>
+    <div class="policia">
+        <div class="peleacallejera" type="submit" onclick=peleasCallejeras()>Pelea</div>
+        <div class="asaltos" type="submit" onclick=asaltos()>Asaltos</div>
+        <div class="asesinato" type="submit" onclick=asesinatos()>Asesinato</div>
+        <div class="personassecuestradas" type="submit" onclick=personasSecuestradas()>Secuestro</div>
+    </div>
+    <img src="https://image.flaticon.com/icons/png/512/37/37457.png" alt="" class="pelea" onclick=peleasCallejeras()>
+    <img src="https://image.flaticon.com/icons/png/512/340/340504.png" alt="" class="robo" onclick=asaltos()>
+    <img src="https://image.flaticon.com/icons/png/512/11/11039.png" alt="" class="homicidio" onclick=asesinatos()>
+    <img src="https://image.flaticon.com/icons/png/512/1427/1427329.png" alt="" class="secuestro" onclick=personasSecuestradas()>
+</body>
+<script src="js/policia.js"></script>
+
+</html>
